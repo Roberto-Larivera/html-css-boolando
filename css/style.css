@@ -11,12 +11,9 @@
     margin: 0 auto;
 }
 
-/* .clearfix::after{
-    display: table;
-    content: '';
-    clear: both;
-} */
-
+body{
+    font-family: 'Poppins', sans-serif;
+}
 /* HEADER */
 
 .first-header{
@@ -25,6 +22,7 @@
     /* padding: 20px 0; */
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
 .first-header .container{
     display: flex;
@@ -72,20 +70,81 @@
     color: white;
     padding: 20px 0px 20px 20px;
 }
+
+
+
+
+
+
+
 /* MAIN */
 main{
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding: 100px 0;
 }
 .card-alfa{
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 20px;
-    max-height: 1100px;
+    gap: 100px 20px;
 }
 .card-alfa img{
-    height: 100%;
+    width: 100%;
 }
+.card-box{
+    position: relative;
+}
+
+.box-heart{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    position:absolute ;
+    top: 1%;
+    right:0%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-heart i{
+    font-size: 1,5em;
+}
+.card-tag{
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    color: white;
+}
+.card-tag span{
+    display: inline-block;
+    padding: 3px 5px;
+}
+.tag-red{
+    background-color: red;
+    
+}
+.tag-green{
+    background-color: green;
+}
+
+.card-text{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 10px;
+}
+.card-text h3{
+    font-size: 1em;
+    font-weight: 600;
+}
+.card-text div strong{
+    color: red;
+}
+.card-text div span{
+    text-decoration: line-through;
+}
+
+
+
 /* FOOTER */
 .first-footer{
     min-height: 80px;
@@ -101,6 +160,7 @@ main{
 
 #footer-left h4{
     margin-bottom: 10px;
+    font-weight: 500;
 }
 #footer-left a{
     text-decoration: none;
@@ -144,9 +204,9 @@ main{
 .debug .mini-box{
     background-color: darkgoldenrod
 } */
-.debug .card-alfa div{
+/* .debug .card-alfa div{
     background-color: cadetblue
-}
+} */
 
 
 
