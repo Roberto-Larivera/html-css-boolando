@@ -44,22 +44,25 @@ body{
 .links-header a{
     color: white;
     padding: 20px 20px 20px 0;
+    cursor: pointer;
 }
 
 .maxi-box{
-    width: 10%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+
 }
 .mini-box{
-    /* width: 25%; */
+    width: 25%;
     
     display: flex;
     align-items: center;
 }
 
-.maxi-box img{
-    width: 100%;
+.logo-header{
+    width: 15%;
+    cursor: pointer;
 }
 
 .icon-heater{
@@ -72,7 +75,10 @@ body{
 }
 
 
-
+.links-header a:hover{
+    transition-duration: 0.3;
+    text-decoration: underline;
+}
 
 
 
