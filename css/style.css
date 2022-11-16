@@ -92,10 +92,16 @@ main{
 .first-footer .container{
     display: flex;
     justify-content: space-between;
+    color: white;
 }
 
+#footer-left h4{
+    margin-bottom: 10px;
+}
 #footer-left a{
     text-decoration: none;
+    padding: 20px 20px 20px 0;
+    color: white;
 }
 
 #footer-left ul{
@@ -104,8 +110,16 @@ main{
     
 }
 
-
-
+.mini-social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mini-social i{
+    color: white;
+    padding: 10px 0px 10px 10px;
+}
 
 
 
@@ -134,10 +148,10 @@ main{
     height: 1100px;
 }
 
-.debug #footer-left{
+/* .debug #footer-left{
     background-color: #ff6900;
 }
 
 .debug #footer-right{
     background-color: green;
-}
+} */
