@@ -242,11 +242,24 @@ main{
 .mini-social i{
     color: white;
     padding: 10px 0px 10px 10px;
+    cursor: pointer;
 }
 
 
 
+#footer-left a:hover{
+    transition-duration: 0.3;
+    text-decoration: underline;
+}
+.icon-heater i:hover{
+    transition-duration: 0.3;
+    color: #1a1a1a;
+}
 
+.mini-social i:hover{
+    transition-duration: 0.3;
+    color: #ff6900;
+}
 /* +++++++++++++++++++++++  DEBUG   +++++++++++++++++++++++*/
 .debug .border-red{
     border: 2px dashed red;
