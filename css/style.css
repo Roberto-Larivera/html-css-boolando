@@ -11,6 +11,12 @@
     margin: 0 auto;
 }
 
+.clearfix::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+
 /* HEADER */
 .first-header{
     background-color: #ff6900;
@@ -42,9 +48,17 @@
 }
 
 
+/* MAIN */
 
+.card-alfa{
+    width: 390px;
+    height: 500px;
+    float: left;
+}
 
-
+.card-alfa:nth-of-type(3n + 2){
+    margin: 0 30px;
+}
 
 
 
@@ -64,4 +78,7 @@
 
 .debug .mini-box{
     background-color: darkgoldenrod
+}
+.debug .card-alfa{
+    background-color: cadetblue
 }
