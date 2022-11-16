@@ -15,6 +15,10 @@
 .first-header{
     background-color: #ff6900;
 }
+.first-header .container{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
