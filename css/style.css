@@ -88,7 +88,11 @@ main{
 }
 .card-alfa img{
     width: 100%;
+    cursor: pointer;
 }
+
+
+
 .card-box{
     position: relative;
 }
@@ -133,10 +137,10 @@ main{
     position: absolute;
     top: 100%;
     left: 0;
-    margin-top: 10px;
 }
 .card-text div:first-child{
     text-transform: capitalize;
+    font-size: 0.9em;
 }
 .card-text h3{
     font-size: 1em;
@@ -146,16 +150,42 @@ main{
 .card-text div strong{
     color: red;
     font-weight: 600;
+    font-size: 0.9em;
 }
 .card-text div strong::after{
     content: '\20AC';
 }
 .card-text div span{
     text-decoration: line-through;
+    font-size: 0.9em;
 }
 .card-text div span::after{
     content: '\20AC';
 }
+
+
+
+
+
+/* HOVER  */
+
+
+.card-alfa > .card-box:hover > img:first-child{
+    display: none;
+    transition-duration: 0.3;
+}
+.card-alfa .card-box .image-b{
+    display: none;
+}
+.card-alfa > .card-box:hover >  .image-b{
+    display: inline-block;
+    transition-duration: 0.3;
+}
+
+
+
+
+
 
 
 /* FOOTER */
