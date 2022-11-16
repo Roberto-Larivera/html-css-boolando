@@ -122,6 +122,9 @@ main{
     background-color: red;
     
 }
+.tag-red::after{
+    content: '\0025';
+}
 .tag-green{
     background-color: green;
 }
@@ -144,10 +147,15 @@ main{
     color: red;
     font-weight: 600;
 }
+.card-text div strong::after{
+    content: '\20AC';
+}
 .card-text div span{
     text-decoration: line-through;
 }
-
+.card-text div span::after{
+    content: '\20AC';
+}
 
 
 /* FOOTER */
