@@ -1,0 +1,63 @@
+/* RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERALI */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.first-header{
+    background-color: #ff6900;
+}
+
+
+
+.links-header a{
+    text-decoration: none;
+}
+
+.links-header ul{
+    list-style-type: none;
+}
+
+.links-header a{
+    color: white;
+}
+
+.maxi-box{
+    width: 50%;
+}
+.mini-box{
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+
+/* +++++++++++++++++++++++  DEBUG   +++++++++++++++++++++++*/
+.debug .border-red{
+    border: 2px dashed red;
+}
+
+.debug .first-header .container{
+    background-color: gray;
+}
+
+.debug .maxi-box{
+    background-color: forestgreen;
+}
+
+.debug .mini-box{
+    background-color: darkgoldenrod
+}
