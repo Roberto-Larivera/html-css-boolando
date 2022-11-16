@@ -54,7 +54,7 @@
     align-items: center;
 }
 .mini-box{
-    width: 25%;
+    /* width: 25%; */
     
     display: flex;
     align-items: center;
@@ -63,9 +63,11 @@
 .maxi-box img{
     width: 100%;
 }
+
 .icon-heater{
     justify-content: flex-end;
 }
+
 .icon-heater i{
     color: white;
     padding: 20px 0px 20px 20px;
@@ -81,7 +83,9 @@ main{
     gap: 20px;
     max-height: 1100px;
 }
-
+.card-alfa img{
+    height: 100%;
+}
 /* FOOTER */
 .first-footer{
     min-height: 80px;
@@ -144,9 +148,7 @@ main{
     background-color: cadetblue
 }
 
-.debug .card-alfa{
-    height: 1100px;
-}
+
 
 /* .debug #footer-left{
     background-color: #ff6900;
