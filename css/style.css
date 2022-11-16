@@ -18,8 +18,11 @@
 } */
 
 /* HEADER */
+
 .first-header{
     background-color: #ff6900;
+    min-height: 80px;
+    padding: 20px 0;
 }
 .first-header .container{
     display: flex;
@@ -53,8 +56,25 @@
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 20px;
-    min-height: 1000px;
+    max-height: 1100px;
 }
+
+/* FOOTER */
+.first-footer{
+    min-height: 80px;
+    background-color: #1a1a1a;
+    padding: 20px 0;
+}
+
+.first-footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
 
 
 
@@ -76,4 +96,20 @@
 }
 .debug .card-alfa div{
     background-color: cadetblue
+}
+
+.debug .card-alfa{
+    height: 1100px;
+}
+
+.debug #footer-left{
+    height: 50px;
+    width: 300px;
+    background-color: #ff6900;
+}
+
+.debug #footer-right{
+    height: 50px;
+    width: 300px;
+    background-color: green;
 }
