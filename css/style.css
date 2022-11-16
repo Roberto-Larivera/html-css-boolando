@@ -79,7 +79,7 @@ body{
 
 /* MAIN */
 main{
-    padding: 100px 0;
+    padding: 150px 0;
 }
 .card-alfa{
     display: grid;
@@ -132,12 +132,17 @@ main{
     left: 0;
     margin-top: 10px;
 }
+.card-text div:first-child{
+    text-transform: capitalize;
+}
 .card-text h3{
     font-size: 1em;
     font-weight: 600;
+    text-transform: uppercase;
 }
 .card-text div strong{
     color: red;
+    font-weight: 600;
 }
 .card-text div span{
     text-decoration: line-through;
@@ -192,28 +197,3 @@ main{
 .debug .border-red{
     border: 2px dashed red;
 }
-
-/* .debug .first-header .container{
-    background-color: gray;
-} */
-
-/* .debug .maxi-box{
-    background-color: forestgreen;
-}
-
-.debug .mini-box{
-    background-color: darkgoldenrod
-} */
-/* .debug .card-alfa div{
-    background-color: cadetblue
-} */
-
-
-
-/* .debug #footer-left{
-    background-color: #ff6900;
-}
-
-.debug #footer-right{
-    background-color: green;
-} */
