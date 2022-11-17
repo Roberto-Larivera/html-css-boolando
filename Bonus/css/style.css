@@ -120,6 +120,7 @@ main{
     position:absolute ;
     top: 1%;
     right:0%;
+    cursor: pointer;
 
     display: flex;
     justify-content: center;
@@ -127,6 +128,9 @@ main{
 }
 .box-heart i{
     font-size: 1,5em;
+}
+.box-heart:hover  i{ 
+    color: red;
 }
 .card-tag{
     position: absolute;
@@ -197,7 +201,6 @@ main{
     display: inline-block;
     transition-duration: 0.3;
 }
-
 
 
 
